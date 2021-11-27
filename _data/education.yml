@@ -1,0 +1,35 @@
+# Education
+
+- degree: "B.S."
+  degree_full: "Bachelor of Science"
+  institution: "GitHub University"
+  inst_short: "GU"
+  subject: "Github"
+  year_start: "2008"
+  year_end: "2012"
+
+# Data intentionally out of order!
+- degree: "Ph.D"
+  degree_full: "Doctor of Philosophy"
+  institution: "GitHub University"
+  inst_short: "GU"
+  subject: "Version Control Theory"
+  year_start: "2014"
+  year_end:
+  note:
+  advisors:
+    - name: "Professor Git"
+      url:
+    - name: "Professor Hub"
+      url:
+  thesis:
+    title: “How to Clone your Dragon”
+    url: "https://academicpages.github.io"
+
+- degree: "M.S."
+  degree_full: "Master of Science"
+  institution: "GitHub University"
+  inst_short: "GU"
+  subject: "Jekyll"
+  year_start: "2012"
+  year_end: "2014"

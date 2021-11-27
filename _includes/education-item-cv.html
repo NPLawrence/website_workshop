@@ -1,0 +1,12 @@
+<li>
+{{ item.degree }} in {{ item.subject }}, {{ item.institution }}, {{ item.year_start }} {% if item.year_end %} -- {{ item.year_end }} {% else %} -- Present {% endif %}
+<ul>
+{% if item.thesis %}
+    <li> Thesis: {{ item.thesis.title }} </li>
+{% endif %}
+{% if item.advisors %}
+    {% assign advisorlist = {{item.advisors | map: "name" }} %}
+    <li> Advisor{% if advisorlist.size > 1 %}s: {% endif %} {{ advisorlist | join: ", "}} </li>
+{% endif %}
+</ul>
+</li>
